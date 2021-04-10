@@ -27,7 +27,7 @@ program {
   i <- 2
   divisible <- false
   while not divisible {
-    if not divisible and a mod i = 0 {
+    if a mod i = 0 {
       divisible <- true
       divider <- i
     }
